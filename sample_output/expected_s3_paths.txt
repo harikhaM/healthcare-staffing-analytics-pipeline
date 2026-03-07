@@ -1,0 +1,23 @@
+Example output generated after a successful pipeline run.
+
+RAW LAYER
+
+s3://healthcare-metrics-hmanthena/raw/pbj/load_date=2026-03-05/PBJ_Daily_Nurse_Staffing_Q2_2024.csv
+s3://healthcare-metrics-hmanthena/raw/provider/load_date=2026-03-05/NH_ProviderInfo_Oct2024.csv
+s3://healthcare-metrics-hmanthena/raw/quality/load_date=2026-03-05/NH_QualityMsr_Claims_Oct2024.csv
+
+
+PROCESSED LAYER
+
+s3://healthcare-metrics-hmanthena/processed/fact_staffing_daily/year_month=2024-04/
+s3://healthcare-metrics-hmanthena/processed/dim_facility/
+s3://healthcare-metrics-hmanthena/processed/quality_measures/
+
+
+ANALYTICS LAYER
+
+Amazon Athena Tables (via Glue Data Catalog)
+
+healthcare_processed_db.fact_staffing_daily
+healthcare_processed_db.dim_facility
+healthcare_processed_db.quality_measures
