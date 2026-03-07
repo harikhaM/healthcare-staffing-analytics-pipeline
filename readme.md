@@ -25,15 +25,15 @@ Google Drive → EventBridge → Lambda → S3 Raw → Glue Crawler → Glue ETL
 
 ## Technologies Used
 
-Amazon EventBridge
-AWS Lambda
-Amazon S3 (Data Lake – Raw & Processed Layers)
-AWS Glue Crawler & Glue Data Catalog
-AWS Glue ETL (PySpark)
-Amazon Athena
-Amazon QuickSight
-Amazon CloudWatch
-Amazon SNS
+- Amazon EventBridge
+- AWS Lambda
+- Amazon S3 (Data Lake – Raw & Processed Layers)
+- AWS Glue Crawler & Glue Data Catalog
+- AWS Glue ETL (PySpark)
+- Amazon Athena
+- Amazon QuickSight
+- Amazon CloudWatch
+- Amazon SNS
 
 ## Key Features
 
